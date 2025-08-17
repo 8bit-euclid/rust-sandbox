@@ -1,0 +1,9 @@
+[submodule "coursera/applied-rust"]
+	path = coursera/applied-rust
+	url = https://github.com/alfredodeza/applied-rust.git
+[submodule "coursera/rust-fundamentals"]
+	path = coursera/rust-fundamentals
+	url = https://github.com/alfredodeza/rust-fundamentals.git
+[submodule "coursera/rust-structs-types-enums"]
+	path = coursera/rust-structs-types-enums
+	url = https://github.com/alfredodeza/rust-structs-types-enums.git
