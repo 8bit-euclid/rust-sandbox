@@ -15,10 +15,13 @@ By completing this tutorial series, you will:
 
 ## 📚 Tutorial Structure
 
-### Three-Stage Architecture
-1. **Beginner (Foundations)**: 8 lessons + capstone project (~12-15 hours)
-2. **Intermediate (Building Skills)**: 9 lessons + capstone project (~18-22 hours)
-3. **Advanced (Mastery)**: 8 lessons + capstone project (~20-25 hours)
+### Three-Stage Architecture (Consolidated)
+1. **Beginner (Foundations)**: 5 lessons + capstone project (~10 hours)
+2. **Intermediate (Building Skills)**: 6 lessons + capstone project (~15 hours)
+3. **Advanced (Mastery)**: 5 lessons + capstone project (~15 hours)
+
+**Total Duration**: ~40 hours (2 weeks at 20 hours/week)
+**Total Lessons**: 16 core lessons + 3 capstone projects
 
 ## 🛠️ Prerequisites
 
@@ -83,34 +86,25 @@ Each lesson includes:
 ```
 rust-interactive-tutorial/
 ├── README.md
-├── beginner/                    # Foundations (8 lessons)
-│   ├── 01_01_setup.ipynb
-│   ├── 01_02_variables.ipynb
-│   ├── 01_03_functions.ipynb
-│   ├── 01_04_ownership.ipynb
-│   ├── 01_05_borrowing.ipynb
-│   ├── 01_06_slices.ipynb
-│   ├── 01_07_compound_types.ipynb
-│   └── 01_08_pattern_matching.ipynb
-├── intermediate/                # Building Skills (9 lessons)
-│   ├── 02_01_structs.ipynb
-│   ├── 02_02_enums.ipynb
-│   ├── 02_03_collections.ipynb
-│   ├── 02_04_error_handling.ipynb
-│   ├── 02_05_generics.ipynb
-│   ├── 02_06_traits.ipynb
-│   ├── 02_07_modules.ipynb
-│   ├── 02_08_testing.ipynb
-│   └── 02_09_iterators.ipynb
-├── advanced/                   # Mastery (8 lessons)
-│   ├── 03_01_lifetimes.ipynb
-│   ├── 03_02_advanced_traits.ipynb
-│   ├── 03_03_smart_pointers.ipynb
-│   ├── 03_04_concurrency.ipynb
-│   ├── 03_05_async.ipynb
-│   ├── 03_06_macros.ipynb
-│   ├── 03_07_unsafe.ipynb
-│   └── 03_08_performance.ipynb
+├── beginner/                    # Foundations (5 lessons)
+│   ├── 01_01_setup.ipynb                    # Setup & Fundamentals (2h)
+│   ├── 01_02_functions.ipynb                # Functions & Control Flow (2.5h)
+│   ├── 01_03_ownership.ipynb                # Ownership & Borrowing (3h)
+│   ├── 01_04_collections.ipynb              # Collections & Patterns (2.5h)
+│   └── 01_05_debugging.ipynb                # Compiler Errors & Debugging (1.5h)
+├── intermediate/                # Building Skills (6 lessons)
+│   ├── 02_01_structs.ipynb                  # Structs, Enums & Collections (3h)
+│   ├── 02_02_error_handling.ipynb           # Error Handling & Generics (2.5h)
+│   ├── 02_03_traits.ipynb                   # Traits & Polymorphism (2.5h)
+│   ├── 02_04_modules.ipynb                  # Modules & Organization (1.5h)
+│   ├── 02_05_iterators.ipynb                # Iterators & Functional Patterns (2h)
+│   └── 02_06_testing.ipynb                  # Testing & Cargo (1.5h)
+├── advanced/                   # Mastery (5 lessons)
+│   ├── 03_01_lifetimes.ipynb                # Lifetimes & Advanced Traits (3h)
+│   ├── 03_02_smart_pointers.ipynb           # Smart Pointers & Interior Mutability (2.5h)
+│   ├── 03_03_concurrency.ipynb              # Concurrency & Async (3h)
+│   ├── 03_04_macros.ipynb                   # Macros & Unsafe Rust (2h)
+│   └── 03_05_performance.ipynb              # Performance & Optimization (1.5h)
 ├── capstone-projects/          # Hands-on projects
 │   ├── beginner/
 │   ├── intermediate/
@@ -157,6 +151,26 @@ rust-interactive-tutorial/
 - Check the instructor guides for common student difficulties
 - Review solution notebooks for reference implementations
 - Consult the Rust documentation and community resources
+
+## 📅 Two-Week Learning Schedule
+
+Complete the entire tutorial in 2 weeks at ~20 hours/week:
+
+### Week 1: Foundations & Building Blocks
+- **Day 1-2**: B1 Setup & Fundamentals (2h) + B2 Functions & Control Flow (2.5h)
+- **Day 3-4**: B3 Ownership & Borrowing (3h) + B4 Collections & Patterns (2.5h)
+- **Day 5**: B5 Compiler Errors & Debugging (1.5h) + Beginner Capstone Project (3h)
+- **Week 1 Total**: ~14.5 hours
+
+### Week 2: Advanced Concepts & Mastery
+- **Day 6-7**: I1 Structs, Enums & Collections (3h) + I2 Error Handling & Generics (2.5h)
+- **Day 8-9**: I3 Traits & Polymorphism (2.5h) + I4 Modules & Organization (1.5h)
+- **Day 10**: I5 Iterators & Functional Patterns (2h) + I6 Testing & Cargo (1.5h)
+- **Day 11-12**: A1 Lifetimes & Advanced Traits (3h) + A2 Smart Pointers (2.5h)
+- **Day 13-14**: A3 Concurrency & Async (3h) + A4 Macros & Unsafe (2h) + A5 Performance (1.5h)
+- **Week 2 Total**: ~25.5 hours
+
+**Total**: ~40 hours over 2 weeks
 
 ## 📈 Learning Tips
 
