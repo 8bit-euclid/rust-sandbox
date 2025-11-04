@@ -10,7 +10,8 @@
         "vadimcn.vscode-lldb",
         "fill-labs.dependi",
         "tamasfe.even-better-toml",
-        "Augment.vscode-augment"
+        "Augment.vscode-augment",
+        "ms-toolsai.jupyter"
       ],
       "settings": {
         "rust-analyzer.check.command": "clippy",
@@ -24,7 +25,7 @@
     }
   },
   "forwardPorts": [3000, 8000, 8080],
-  "postCreateCommand": "rustc --version && cargo --version",
+  "postCreateCommand": "rustc --version && cargo --version && jupyter kernelspec list",
   "remoteUser": "vscode",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},

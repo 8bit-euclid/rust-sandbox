@@ -16,6 +16,13 @@ This devcontainer provides a complete Rust development environment with all nece
 - **CodeLLDB**: Debugging support
 - **crates**: Crate dependency management
 - **Even Better TOML**: Enhanced TOML file support
+- **Jupyter**: Jupyter notebook support for interactive development
+
+### Jupyter & Interactive Development
+- **Python 3**: Latest stable version
+- **Jupyter**: Interactive notebook environment
+- **JupyterLab**: Enhanced Jupyter interface
+- **evcxr_jupyter**: Rust kernel for Jupyter notebooks
 
 ### Additional Tools
 - **Built-in Cargo commands**: Modern dependency management (`cargo add`, `cargo remove`)
@@ -44,6 +51,31 @@ This devcontainer provides a complete Rust development environment with all nece
 - **IntelliSense**: Full code completion and navigation
 - **Debugging**: Integrated debugging with breakpoints
 - **Port Forwarding**: Ports 3000, 8000, and 8080 are automatically forwarded
+- **Jupyter Notebooks**: Interactive Rust development with the `rust` kernel
+
+## Using Jupyter Notebooks
+
+### In VS Code
+1. Open any `.ipynb` file in VS Code
+2. Click the kernel selector (top-right of the notebook)
+3. Select **`rust`** from the dropdown
+4. Run cells with Shift+Enter or the play button
+
+### Via Jupyter Lab
+```bash
+jupyter lab
+```
+Then navigate to your notebook and select the `rust` kernel.
+
+### Via Jupyter Notebook
+```bash
+jupyter notebook
+```
+Then navigate to your notebook and select the `rust` kernel.
+
+### Available Kernels
+- **rust**: Rust kernel (evcxr_jupyter)
+- **python3**: Python kernel
 
 ## Customization
 
